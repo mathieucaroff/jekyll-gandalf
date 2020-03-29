@@ -52,7 +52,7 @@ data:
       actions:
         - text: En savoir plus
           url: /docs/fr/architecture.html
-      image:
+      background_image:
         src: /assets/images/baniere_info.jpg
         is_row: true
         full_width: true
