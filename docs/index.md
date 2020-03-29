@@ -46,9 +46,33 @@ data:
       actions:
         - text: En savoir plus
           url: /docs/fr/usine_logicielle_agile
+    - title: Cas d'usage 
+      excerpt: <strong>Gandalf au service de votre transformation !</strong>
+      id: use_cases
+      children:
+        - title: Simplification des processus
+          excerpt: Trajectoire de simplification de vos processus
+          actions:
+            - text: Learn More
+              url: /docs/en/additional-styles
+        - title: Consolidation des processus
+          excerpt: Trajectoire de mise à niveau des process
+          actions:
+            - text: Learn More
+              url: /docs/en/extensions
+        - title: Adhérence forte au legacy
+          excerpt: Gérez vos dépendances au légacy et mixez ancien et nouveau monde
+          actions:
+            - text: Learn More
+              url: /docs/en/extensions
+        - title: Stratégie de repli ou hybridation
+          excerpt: Mixez ou changez vos technologies et vos cibles à votre gré
+          actions:
+            - text: Learn More
+              url: /docs/en/extensions
     - title: Une solution d'entreprise robuste 
       id: robuste
-      excerpt: Hautement disponible </br> Résiliente </br> Sécurisée </br> Multitenante
+      excerpt: <strong>Hautement disponible </br> Résiliente </br> Sécurisée </br> Multi-tenante</strong>
       actions:
         - text: En savoir plus
           url: /docs/fr/architecture.html
@@ -56,68 +80,39 @@ data:
         src: /assets/images/baniere_info.jpg
         is_row: true
         full_width: true
-    - title: Skins
-      id: skins
-      excerpt: TeXt has 6 built-in skins, you can also set up your own skin.
-      image:
-        src: /screenshots/TeXt-skins.png
-        is_row: true
-        full_width: true
-        style: "max-width: 1000px;"
-    - title: Une solution robuste 
-      id: robust
+    - title: Comment cela marche ? 
+      id: how_to
       children:
-        - title: Haute-disponibilité
-          excerpt: 
+        - title: Connectez vos outils à Gandalf
+          excerpt: Déclarez simplement les produits et leur contexte d'utilisation
           actions:
             - text: Learn More
               url: /docs/en/additional-styles
-        - title: Résilience
-          excerpt: Adding audios, videos, slides and demos to your page.
+        - title: Décrivez vos process
+          excerpt: Dans un langage simple et fonctionnel.
           actions:
             - text: Learn More
               url: /docs/en/extensions
-        - title: Sécurité
-          excerpt: Using Mathjax, Mermaid and Charts in your page.
+        - title: Modifiez vos outils 
+          excerpt: A tout moment en quelques minutes.
           actions:
             - text: Learn More
               url: /docs/en/markdown-enhancements
-        - title: Multi-tenant
-          excerpt: Using Mathjax, Mermaid and Charts in your page.
+        - title: Modifiez vos workflows
+          excerpt: A tout moment en quelques minutes.
           actions:
             - text: Learn More
-              url: /docs/en/markdown-enhancements
-    - title: 100% Free
+              url: /docs/en/update_workflow
+      image:
+        gradient: "linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .6))"
+        src: /assets/images/schemagandalf.png
+    - title: 100% Open Source
       id: free
       theme: dark
-      excerpt: Free to use however you want under the MIT License. Clone it, fork it, customize it, whatever!
+      excerpt: Gandalf est totalement Open Source ! Aucune restriction d'usage ! aucune fonctionalité reservée à une version entreprise ! Vous êtes libres d'utiliser, d'adapter, d'améliorer Gandalf à jamais !
       actions:
         - text: '<i class="fab fa-github"></i> GitHub'
           type: outline-theme-dark
           url: https://github.com/kitian616/jekyll-TeXt-theme
       background_color: "#515151"
-    - title: Tip Me
-      id: tipme
-      children:
-        - title: 'PayPal <i class="fas fa-arrow-down"></i>'
-          image:
-            src: /docs/assets/images/tip_paypal.jpg
-            url: https://www.paypal.me/kitian616
-            style: "max-width: 200px; max-height: 200px"
-            is_row: true
-        - title: 'WeChat <i class="fas fa-arrow-down"></i>'
-          image:
-            src: /docs/assets/images/tip_wechat.jpg
-            style: "max-width: 200px; max-height: 200px"
-            is_row: true
-        - title: 'Alipay <i class="fas fa-arrow-down"></i>'
-          image:
-            src: /docs/assets/images/tip_alipay.jpg
-            style: "max-width: 200px; max-height: 200px"
-            is_row: true
-        - title: 'Bitcoin <i class="fas fa-arrow-down"></i>'
-          image:
-            src: /docs/assets/images/3Fkufxcw2xd8HnaRJBNK4ccdtkUDyyNu4V.jpg
-            style: "max-width: 200px; max-height: 200px"
-          content: '<code style="font-size: .65rem; word-break: break-all">3Fkufxcw2xd8HnaRJBNK4ccdtkUDyyNu4V</code>'
 ---
