@@ -46,19 +46,16 @@ data:
       actions:
         - text: En savoir plus
           url: /docs/fr/usine_logicielle_agile
-    - title: Une solution robuste 
+    - title: Une solution d'entreprise robuste 
       id: robuste
-      excerpt: Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter.
+      excerpt: Hautement disponible </br> Résiliente </br> Sécurisée </br> Multitenante
       actions:
-        - text: See Examples
-          url: /samples.html
-        - text: Learn More
-          url: /docs/en/configuration
+        - text: En savoir plus
+          url: /docs/fr/architecture.html
       image:
-        src: /screenshots/TeXt-layouts.png
+        src: /assets/images/baniere_info.jpg
         is_row: true
         full_width: true
-        style: "max-width: 1200px;"
     - title: Skins
       id: skins
       excerpt: TeXt has 6 built-in skins, you can also set up your own skin.
@@ -67,20 +64,25 @@ data:
         is_row: true
         full_width: true
         style: "max-width: 1000px;"
-    - title: Enhanced User Experience
-      id: experience
+    - title: Une solution robuste 
+      id: robust
       children:
-        - title: Additional Styles
-          excerpt: TeXt offer some CSS classes for your page, including alert, tag, image, button, etc.
+        - title: Haute-disponibilité
+          excerpt: 
           actions:
             - text: Learn More
               url: /docs/en/additional-styles
-        - title: Extensions
+        - title: Résilience
           excerpt: Adding audios, videos, slides and demos to your page.
           actions:
             - text: Learn More
               url: /docs/en/extensions
-        - title: Markdown Enhancements
+        - title: Sécurité
+          excerpt: Using Mathjax, Mermaid and Charts in your page.
+          actions:
+            - text: Learn More
+              url: /docs/en/markdown-enhancements
+        - title: Multi-tenant
           excerpt: Using Mathjax, Mermaid and Charts in your page.
           actions:
             - text: Learn More
