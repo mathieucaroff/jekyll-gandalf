@@ -11,25 +11,20 @@
 #    |  |  \   --. /  .'.  \  |  |
 #    `--'   `----''--'   '--' `--'
 
-
-
-
 ## => Site Settings
 ##############################
 text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
-url     : "https://treivax.github.io/" # the base hostname & protocol for your site e.g. https://www.someone.com
-baseurl : "/gandalf2" # does not include hostname
+url     : "https://ditrit.io/" # the base hostname & protocol for your site e.g. https://www.someone.com
+baseurl : "/gandalf" # does not include hostname
 title   : Gandalf
 description: > # this means to ignore newlines until "Language & timezone"
   Gandalf is a Normalize Devops Application Life-cycle Framework
-
 
 ## => Language and Timezone
 ##############################
 lang: "fr" # the language of your site, default as "en"
 timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
-
 
 ## => Author and Social
 ##############################
@@ -55,7 +50,7 @@ author:
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: treivax/gandalf2
+repository: ditrit/gandalf
 repository_tree: master
 
 
