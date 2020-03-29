@@ -53,28 +53,29 @@ data:
         - title: Simplification des processus
           excerpt: Trajectoire de simplification de vos processus
           actions:
-            - text: Learn More
+            - text: En savoir plus
               url: /docs/en/additional-styles
         - title: Consolidation des processus
           excerpt: Trajectoire de mise à niveau des process
           actions:
-            - text: Learn More
+            - text: En savoir plus
               url: /docs/en/extensions
         - title: Adhérence forte au legacy
           excerpt: Gérez vos dépendances au légacy et mixez ancien et nouveau monde
           actions:
-            - text: Learn More
+            - text: En savoir plus
               url: /docs/en/extensions
         - title: Stratégie de repli ou hybridation
           excerpt: Mixez ou changez vos technologies et vos cibles à votre gré
           actions:
-            - text: Learn More
+            - text: En savoir plus
               url: /docs/en/extensions
     - title: Une solution d'entreprise robuste 
       id: robuste
       excerpt: <strong>Hautement disponible </br> Résiliente </br> Sécurisée </br> Multi-tenante</strong>
       actions:
         - text: En savoir plus
+          type: outline-theme-dark
           url: /docs/fr/architecture.html
       background_image:
         src: /assets/images/baniere_info.jpg
@@ -83,25 +84,25 @@ data:
     - title: Comment cela marche ? 
       id: how_to
       children:
-        - title: Connectez vos outils à Gandalf
-          excerpt: Déclarez simplement les produits et leur contexte d'utilisation
+        - title: Inter-connectez vos outils 
+          excerpt: en les déclarant simplement à Gandalf
           actions:
-            - text: Learn More
+            - text: En savoir plus
               url: /docs/en/additional-styles
-        - title: Décrivez vos process
-          excerpt: Dans un langage simple et fonctionnel.
+        - title: Décrivez vos processus
+          excerpt: dans un langage simple et fonctionnel.
           actions:
-            - text: Learn More
+            - text: En savoir plus
               url: /docs/en/extensions
-        - title: Modifiez vos outils 
-          excerpt: A tout moment en quelques minutes.
+        - title: Mettez à jour votre outillage
+          excerpt: à tout moment en quelques minutes.
           actions:
-            - text: Learn More
+            - text: En savoir plus
               url: /docs/en/markdown-enhancements
-        - title: Modifiez vos workflows
-          excerpt: A tout moment en quelques minutes.
+        - title: Adaptez vos processus
+          excerpt: à tout moment en quelques minutes.
           actions:
-            - text: Learn More
+            - text: En savoir plus
               url: /docs/en/update_workflow
       image:
         gradient: "linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .6))"
